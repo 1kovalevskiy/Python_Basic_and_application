@@ -22,5 +22,3 @@ for i in range(n):
         get(namespace, argument)
 
     
-
-print(command)
