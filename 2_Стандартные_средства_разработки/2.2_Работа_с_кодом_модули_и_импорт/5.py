@@ -1,7 +1,9 @@
 import datetime
 
-a = datetime.date(2016,5,4)
-b = datetime.timedelta(days=14)
+y,m,d = map(int, input().split())
+delta = int(input())
+a = datetime.date(y,m,d)
+b = datetime.timedelta(days=delta)
 c = a + b
-print(c)
+
 print(c.year, c.month, c.day)
